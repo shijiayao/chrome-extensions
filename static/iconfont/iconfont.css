@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 2804247 */
+  src: url('iconfont.woff2?t=1631261713596') format('woff2'),
+       url('iconfont.woff?t=1631261713596') format('woff'),
+       url('iconfont.ttf?t=1631261713596') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-kaifazhong:before {
+  content: "\e600";
+}
+
+.icon-mofang:before {
+  content: "\e606";
+}
+
+.icon-video:before {
+  content: "\e69e";
+}
+

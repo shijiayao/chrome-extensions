@@ -1,0 +1,25 @@
+{
+  "name": "extension-test",
+  "description": "My Extension!",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": { "service_worker": "/background/background.js" },
+  "content_scripts": [{ "matches": ["*://*/*"], "run_at": "document_idle", "js": ["/content-scripts/content-script.js"] }],
+  "web_accessible_resources": [{ "matches": ["*://*/*"], "resources": ["*"] }],
+  "permissions": ["storage", "activeTab", "scripting"],
+  "action": {
+    "default_popup": "/popup/index.html",
+    "default_icon": {
+      "16": "/static/images/default_icon/16.png",
+      "32": "/static/images/default_icon/32.png",
+      "48": "/static/images/default_icon/48.png",
+      "128": "/static/images/default_icon/128.png"
+    }
+  },
+  "icons": {
+    "16": "/static/images/default_icon/16.png",
+    "32": "/static/images/default_icon/32.png",
+    "48": "/static/images/default_icon/48.png",
+    "128": "/static/images/default_icon/128.png"
+  }
+}

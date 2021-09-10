@@ -1,0 +1,30 @@
+{
+  "id": "2804247",
+  "name": "chrome-extensions",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "17592350",
+      "name": "开发中",
+      "font_class": "kaifazhong",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "8535140",
+      "name": "魔方",
+      "font_class": "mofang",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    },
+    {
+      "icon_id": "11211891",
+      "name": "video",
+      "font_class": "video",
+      "unicode": "e69e",
+      "unicode_decimal": 59038
+    }
+  ]
+}

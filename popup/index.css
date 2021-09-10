@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.icon {
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+}
+.main-box {
+  min-width: 100px;
+}
+.main-box .button-lists {
+  padding: 10px 0;
+  width: 200px;
+}
+.main-box .button-lists .button-item {
+  padding: 5px;
+  transition: all 0.5s;
+  border-bottom: 1px solid #ccc;
+  cursor: pointer;
+}
+.main-box .button-lists .button-item .icon {
+  position: relative;
+  top: 3px;
+  padding-left: 5px;
+  font-size: 20px;
+  vertical-align: top;
+}
+.main-box .button-lists .button-item span {
+  display: inline-block;
+  padding: 3px 5px;
+  line-height: 20px;
+  font-size: 14px;
+  transition: all 0.5s;
+  color: #202020;
+}
+.main-box .button-lists .button-item:hover {
+  background-color: #eee;
+}
+.main-box .button-lists .button-item:hover span {
+  color: #409eff;
+}
