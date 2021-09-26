@@ -51,8 +51,8 @@ class AUTO_WATCH_VIDEO {
       }
     });
 
-    // 开始播放视频
-    _this.video_dom_arr[_this.video_idx].play();
+    _this.video_dom_arr[_this.video_idx].play(); // 开始播放视频
+    _this.video_dom_arr[_this.video_idx].playbackRate = 2; // 开启倍速
 
     _this.video_idx++;
 
