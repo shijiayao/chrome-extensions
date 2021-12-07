@@ -30,3 +30,13 @@ messageTest.addEventListener('click', async () => {
     console.log(response.farewell);
   });
 });
+
+let clearCookie = document.getElementById('clear_cookie');
+
+// chrome.storage.sync.set();
+
+clearCookie.addEventListener('click', async () => {
+  chrome.storage.sync.clear(() => {
+    console.log('清除cookie');
+  });
+});
